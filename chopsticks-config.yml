@@ -1,6 +1,7 @@
 endpoint: wss://rpc.ibp.network/polkadot
 mock-signature-host: true
-block: 22616108
+block: 22657964
+
 
 
 db: ./db.sqlite
