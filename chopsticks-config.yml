@@ -1,6 +1,6 @@
 endpoint: wss://rpc.ibp.network/polkadot
 mock-signature-host: true
-block: 23779872
+block: 23780883
 
 
 

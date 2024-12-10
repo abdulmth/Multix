@@ -14,7 +14,7 @@ export class Env {
 
   constructor() {
     this.env = {
-      blockstart: '23779872',
+      blockstart: '23780883',
       prefix: 0,
       rpcWs: 'ws://localhost:8000',
       gatewayUrl: '',
