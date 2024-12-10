@@ -14,12 +14,12 @@ export class Env {
 
   constructor() {
     this.env = {
-      blockstart: process.env.BLOCK_START || '',
-      prefix: Number(process.env.PREFIX) || 0,
-      rpcWs: process.env.RPC_WS || '',
-      gatewayUrl: process.env.GATEWAY_URL || '',
-      chainId: process.env.CHAIN_ID || '',
-      isEthereum: process.env.IS_ETHEREUM === 'true' || false
+      blockstart: '23779872',
+      prefix: 0,
+      rpcWs: 'ws://localhost:8000',
+      gatewayUrl: '',
+      chainId: 'polkadot',
+      isEthereum: false
     }
 
     this.checkForUndefined()

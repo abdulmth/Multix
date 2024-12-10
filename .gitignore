@@ -110,7 +110,6 @@ node_modules
 lib
 build
 builds
-.env
 *DS_Store
 *.tsbuildinfo
 
